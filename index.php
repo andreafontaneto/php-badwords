@@ -6,8 +6,11 @@ $paragrafo = 'Questa mattina Andrea ha iniziato ad imparare backend usando il li
 //stampo il paragrafo
 echo $paragrafo;
 
+echo '<br>';
+echo '<br>';
+
 //dichiaro la sua lunghezza
-echo strlen($paragrafo);
+echo strlen($paragrafo).' '.'caratteri totali';
 
 //esplodo l'array
 var_dump(explode(' ', $paragrafo));
